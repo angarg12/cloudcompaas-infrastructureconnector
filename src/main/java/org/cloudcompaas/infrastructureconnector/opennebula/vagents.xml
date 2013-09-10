@@ -1,0 +1,22 @@
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<vagents>
+	<iaasagent>
+		<epr>http://kefren.i3m.upv.es:2633/RPC2</epr>
+		<extension name="credentials">angarg12:ggg12</extension>
+		<extension name="location">UPV</extension>
+		<extension name="hypervisor">kvm</extension>
+		<extension name="hypervisor">vmware</extension>
+		<extension name="network">privada</extension>
+		<extension name="network">publica</extension>
+		<extension name="architecture">i686</extension>
+	</iaasagent>
+	<iaasagent>
+		<epr>http://dellblade.i3m.upv.es:2633/RPC2</epr>
+		<extension name="location">UPV</extension>
+		<extension name="hypervisor">kvm</extension>
+		<extension name="network">0</extension>
+		<extension name="network">2</extension>
+		<extension name="credentials">agarcia:ggg12</extension>
+		<extension name="architecture">x86_64</extension>
+	</iaasagent>
+</vagents>
